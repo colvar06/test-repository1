@@ -1,0 +1,59 @@
+html, body {
+    font-family: serif;
+    font-weight: 200;
+    padding: 0px;
+    margin: 0px;
+    color: #ddd;
+    background-color: #222;
+}
+
+.page-top-tub {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    width: 100%;
+    height: 120px;
+}
+
+.page-icon-tub {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 100%;
+}
+
+.page-button-tub {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+}
+
+.button-text {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.button-text:hover {
+    border-bottom: 2px solid #ddd;
+    cursor: pointer;    
+}
+
+.page-social-tub {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 100%;
+}
